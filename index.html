@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Гибридные приложения</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="styles/styles.css" />
+		<style>
+			.shower {
+				--slide-ratio: calc(16 / 9);
+			}
+		</style>
+	</head>
+	<body class="shower list">
+		<header class="caption"></header>
+		<section class="slide">
+			<h3 style="position: absolute;left:35%;bottom:0;text-decoration: underline;color:var(--color-grey)">Бауыржан Шайхисламов</h3>
+			<img
+				style="top:65%"
+				width="500"
+				class="place"
+				src="pictures/preact.gif"
+				alt="Picture placeholder."
+			/>
+			<h2 style="text-align: center; font-size:7rem">WebView</h2>
+		</section>
+
+		<section class="slide" id="me">
+			<div class="columns">
+				<div>
+					<a
+						class="github-link"
+						href="https://github.com/Baukaalm"
+						target="_blank"
+						rel="noopener noreferrer"
+						><img
+							class="github-logo"
+							src="pictures/GitHub-Mark-32px.png"
+							alt="Лого Гитхаб"
+						/>@Baukaalm</a
+                    >
+                </br>
+                    <a
+                    class="github-link"
+                    href="https://t.me/baur_sha"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                        class="github-logo"
+                        src="pictures/telegram.svg"
+                        alt="Лого Телеграм"
+                    />@baur_sha</a
+                >
+            </br>
+			<h2>Привет, я фронтендщик</h2>
+			<div style="display: flex;justify-content: normal">
+					<ul>
+						<li>4 года во фронтенде</li>
+						<li>Из них год верстал флоатами</li>
+						<li>Сейчас пишу фронтенды в Infin-It</li>
+
+					</ul>
+				</div>
+				</div>
+			</div>
+			
+
+			<style>
+				#me .twitter-link {
+					text-decoration: none;
+				}
+
+				#me .twitter-logo {
+					height: 40px;
+					margin-bottom: -10px;
+				}
+
+				#me .github-link {
+					text-decoration: none;
+				}
+
+				#me .github-logo {
+					height: 32px;
+					margin-bottom: -8px;
+					margin-right: 5px;
+				}
+			</style>
+		</section>
+		<section class="slide">
+			<h2>Немного фотограф</h2>
+			<img
+				src="pictures/photo-bio1.jpg"
+				alt="Square picture placeholder."
+				width="300px"
+				style="object-fit: cover;position: relative;top:30px;left:-20px"
+				
+			/>
+			<img
+				src="pictures/DSC03153.jpg"
+				alt="Square picture placeholder."
+				width="250px"
+				style="object-fit: cover;position: relative;top:-15px"
+
+			/>
+			<img
+			src="pictures/DSC02979.jpg"
+			alt="Square picture placeholder."
+			width="250px"
+			style="object-fit: cover;position: relative;left:30px;top:30px"
+		/>
+		</section>
+		<section class="slide" style="background: url(pictures/sounddis.jpg) no-repeat;background-size: contain; border-bottom: 10px solid #fff">
+			<h2 style="color:rgba(255,255,255, .8);">Немного саунд-дизайнер</h2>
+		
+		</section>
+		<section class="slide _pixel">
+				<h2
+					class="shout"
+					style="color:#fff;font-size: 55px;text-transform: uppercase;background-color:rgba(0,0,0,.6);padding:25px 0;"
+				>
+					Гибридные приложения облегчают жизнь
+				</h2>
+			</section>
+		<section class="slide">
+			<h2>Коротко о Preact</h2>
+			<ul>
+				<li><b>Производительность:</b> быстрый рендеринг и перфоманс</li>
+				<li><b>Размер:</b> легкий (около 3,5 КБ)</li>
+				<li><b>Понятность:</b> разобраться в этой библиотеке можно за несколько часов;</li>
+				<li><b>Совместимость:</b> Preact стремится к тому, чтобы быть максимально совместимым с React API <a rel="noreferrer noopener" href="https://github.com/developit/preact-compat/" target="_blank">(preact-compat)</a></li>
+
+			</ul>
+		</section>
+		<section class="slide">
+			<h2>Коротко о WebView / WKWebView</h2>
+			<ul>
+				<li>Это виджет, предоставляемый операционной системой, который позволяет приложениям отображать веб-страницы в приложении.</li>
+			</ul>
+			<h2>Swift</h2>
+			<pre>
+			<code> let localHtmlFile = NSBundle.mainBundle()</code>
+			<code>.URLForResource("index", withExtension: "html");</code>
+			<code> let relativeUrl = NSURL(string: "https://mysite.com")</code>
+        </pre>
+		</section>
+
+	
+
+		<section class="slide">
+			<h2 class="shout">Зачем нужны?</h2>
+		</section>
+		<section class="slide">
+			<ul>
+				<li>
+					Быстро накидать прототип, возможен MVP и демонстрация
+					клиенту
+				</li>
+				<li>
+					Сделать за короткие сроки — простой сервис по обработке вводимых
+					данных
+				</li>
+				<li>
+					Сделать новый сервис уже в существующем нативном приложении
+				</li>
+				<li>Промо-приложения</li>
+			</ul>
+		</section>
+
+		<section class="slide">
+			<h2>Преимущества</h2>
+			<ul>
+				<li>Экономия</li>
+				<li>Кроссплатформенность</li>
+				<li>Гибкость (работает в браузере)</li>
+			</ul>
+		</section>
+		<section class="slide">
+			<h2>Недостатки</h2>
+			<ul>
+				<li>Безопасность</li>
+				<li>Отсутствие нативного UI</li>
+				<li>Отсутствие доступа к нативным API</li>
+				<li>Скорость (скроллинг, анимация)</li>
+			</ul>
+		</section>
+		<section class="slide">
+			<h2 style="font-size: 130px" class="shout">Основные отличия</h2>
+		</section>
+
+		<section
+			class="slide _pixel"
+			style="background-image: url(pictures/bg4.jpg)"
+		>
+			<h2
+				class="shout"
+				style="color:#fff;font-size: 55px;text-transform: uppercase;background-color:rgba(0,0,0,.6);padding:25px 0;"
+			>
+				Отличие от нативных приложений
+			</h2>
+		</section>
+
+		<section class="slide">
+            </br>
+        </br>
+    </br>
+
+			<h2>No comments...</h2>
+		</section>
+		<section
+			class="slide _pixel"
+			style="background-image: url(pictures/bg5.jpg)"
+		>
+			<h2
+				class="shout"
+				style="color:#fff;font-size: 55px;text-transform: uppercase;background-color:rgba(0,0,0,.6);padding:25px 0;"
+			>
+				Отличие от <span style="color:#05a5d1">React Native</span>
+			</h2>
+		</section>
+
+		<section class="slide">
+			<h2>
+                </br>
+            </br>
+        </br>
+
+                react-native компилируется в нативный код и не использует вебвью
+            </br>
+			</h2>
+		</section>
+		<section class="slide _pixel" 			style="background-image: url(pictures/bg8.jpg)"
+        >
+			<h2
+				class="shout"
+				style="color:#fff;font-size: 55px;text-transform: uppercase;background-color:rgba(0,0,0,.6);padding:25px 0;"
+			>
+				Отличие от PWA
+			</h2>
+		</section>
+
+		<section class="slide">
+			<h2>
+                </br>
+            </br>
+
+				PWA не нужно устанавливать как отдельное приложение через Google
+				play и App store
+			</h2>
+			<h2>
+		
+
+			В iOS эти технологии не доведены до совершенства
+		</h2>
+		</section>
+		<section class="slide clear">
+			<p style="font-size: 21px">Иногда, когда вы открываете много PWA одновременно, панель задач iOS сходит с ума, демонстрируя приложения «призраки» без значка или названия в истории</p>
+			<img
+				class="place _mocks"
+				src="pictures/1_HXA_xl-dWMpR8K_yRZFAoA.png"
+				alt="Square picture placeholder."
+				width="450px"
+				style="left:50%;top:60%"
+			/>
+		
+		</section>
+		<section class="slide clear">
+			<h2>История трёх «гибридов» </br> </br> и <mark>одного</mark> нативного приложения</h2>
+			<img
+				class="place _mocks"
+				src="pictures/superbonmoc.png"
+				alt="Square picture placeholder."
+				width="450px"
+				style="left:15%"
+			/>
+			<img
+				class="place _mocks"
+				src="pictures/monmoc.png"
+				alt="Square picture placeholder."
+				style="left:38%"
+				width="450px"
+
+			/>
+			<img
+				class="place _mocks"
+				src="pictures/adminmoc.png"
+				alt="Square picture placeholder."
+				style="left:60%"
+				width="450px"
+
+			/>
+			<img
+				class="place _mocks"
+				src="pictures/pg2moc.png"
+				alt="Square picture placeholder."
+				style="left:83%"
+				width="450px"
+
+			/>
+		</section>
+
+
+		<section class="slide">
+				<ul>
+					<li>
+						<mark>Быстро накидать прототип, возможен MVP и демонстрация
+						клиенту </mark>
+					</li>
+					<li>
+						Сделать за короткие сроки — простой сервис по обработке вводимых
+						данных
+					</li>
+					<li>
+						Сделать новый сервис уже в существующем нативном приложении
+					</li>
+					<li>Промо-приложения</li>
+				</ul>
+			</section>
+        
+		<section class="slide">
+			<h2>Doorbell</h2>
+			<img
+				class="place _mocks"
+				src="pictures/monmoc.png"
+				style="left:72%"
+				alt="Square picture placeholder."
+				style="left:38%"
+				width="450px"
+
+			/>
+			<ul lang="ru">
+				<li>
+					Пример прототипа, который взаимодействует с IoT устройствами
+				</li> 
+				<li>Успешная демонстрация через пару дней, довольный клиент, решенные вопросы с восприятием нового продукта на рынке</li>
+				<li>
+					Перспективы роста, последующие итерации
+				</li>
+			</ul>
+		</section>
+
+		<section class="slide">
+				<ul>
+					<li>
+						Быстро накидать прототип, возможен MVP и демонстрация
+						клиенту
+					</li>
+					<li>
+							<mark>Сделать за короткие сроки — сервис по обработке вводимых
+						данных</mark>
+					</li>
+					<li>
+						Сделать новый сервис уже в существующем нативном приложении
+					</li>
+					<li><mark>Промо-приложения</mark></li>
+				</ul>
+			</section>
+        
+		<section class="slide">
+			<h2>SuperBon/MobileAdmin</h2>
+			<img
+			class="place _mocks"
+			src="pictures/superbonmoc.png"
+			style="left:50%; z-index: 10"
+			alt="Square picture placeholder."
+			style="left:38%"
+			width="450px"
+
+		/>
+			<img
+			class="place _mocks"
+			src="pictures/adminmoc.png"
+			style="left:72%"
+			alt="Square picture placeholder."
+			style="left:38%"
+			width="450px"
+
+		/>
+			<ul lang="ru">
+				<li>
+					Простой продукт, но с активным взаимодействем с интерфейсом
+				</li>
+				<li>Создан быстро(за 1-2 дня), перед ивентом заказчика. </li>
+				<li>Работает в Offline</li>
+			</ul>
+		</section>
+
+		<section class="slide">
+				<ul>
+					<li>
+						Быстро накидать прототип, возможен MVP и демонстрация
+						клиенту
+					</li>
+					<li>
+						Сделать за короткие сроки — сервис по обработке вводимых
+						данных
+					</li>
+					<li>
+							<mark>Сделать новый сервис уже в существующем нативном приложении</mark>
+					</li>
+					<li>Промо-приложения</li>
+				</ul>
+			</section>
+        
+		<section class="slide">
+			<h2>PG Loyalty</h2>
+			<img
+			class="place _mocks"
+			src="pictures/pgmoc.png"
+			style="top: 60%;left: 25%;"
+			alt="Square picture placeholder."
+			width="450px"
+		
+		/>
+		<img
+		class="place _mocks"
+		src="pictures/pg1moc.png"
+		alt="Square picture placeholder."
+		style="top: 60%;left: 50%;"
+		width="450px"
+
+	/>
+			<img
+			class="place _mocks"
+			src="pictures/pg5.png" 
+			alt="Square picture placeholder."
+			style="top: 60%;left: 75%;"
+			width="450px"
+
+		/>
+	
+		</section>
+		 
+		<section class="slide _slide-pg">
+			<h2 style="position: relative;z-index:200;"><mark>WebView &darr;</mark></h2>
+			<h2 style="position: relative;z-index:200;left:425px;top:-90px"><mark>&darr; Preact &darr;</mark></h2>
+
+			<div class="pground" style="overflow: hidden">
+			<img
+			class="place _mocks"
+			src="pictures/pgmoc.png"
+			style="z-index: 300;    top: -272.8%;
+			left: 4%;"
+			alt="Square picture placeholder."
+			width="450px"
+		
+		/>
+	</div>
+		<img
+		class="place _mocks"
+		src="pictures/pgmoc.png"
+		style="top: 60%;left: 25%;"
+		alt="Square picture placeholder."
+		width="450px"
+	
+	/>
+		<img
+		class="place _mocks"
+		src="pictures/pg1moc.png"
+		alt="Square picture placeholder."
+		style="top: 60%;left: 50%;z-index: 300;"
+		width="450px"
+
+	/>
+			<img
+			class="place _mocks"
+			src="pictures/pg5.png" 
+			alt="Square picture placeholder."
+			style="top: 60%;left: 75%;z-index: 300;"
+			width="450px"
+
+		/>
+	
+		</section>
+
+
+		<section class="slide clear">
+			<img
+				class="place"
+				src="pictures/memejs.jpg"
+				alt="Square picture placeholder."
+				width="450px"
+			/>
+		</section>
+
+		<section class="slide">
+			<h2>JS</h2>
+			<pre>
+			<code>componentDidMount() {</code>
+			<code>  	//</code>
+            <code>	const params = new URLSearchParams(paramsString);</code>
+            <code>	const source = params.get('source');</code>
+			<code>	if (!source) this.getCurrentPostiton();</code>
+			<br />
+            <code>	this.fetchData();</code>
+            <code>}</code>
+        </pre>
+		</section>
+		<section class="slide">
+				<h2>Swift</h2>
+				<pre>
+				<code>//</code>
+				<code>let url = URL(string: "https://my.site.com?<mark>source=ios"</mark>)!</code>				
+				<code>webView.load(URLRequest(url: url))</code>
+
+			</pre>
+			</section>
+
+			<section class="slide _fuck">
+					<h2>JS</h2>
+					<pre>
+					<code>window.onExternalLocationUpdate = 
+					this.onExternalLocationUpdate;</code>
+				</pre>
+				</section>
+
+				<section class="slide">
+						<h2>Swift</h2>
+						<pre>
+						<code>webView.evaluateJavaScript( </code>	
+						<code>"<mark>window.onExternalLocationUpdate</mark>(</code>	
+							<code>\(defaultLocation.coordinate.longitude),</code>	
+							<code>\(defaultLocation.coordinate.latitude))"</code>				
+		
+					</pre>
+					</section>
+					<section class="slide">
+							<h2>Итоги</h2>
+							<ul>
+								<li>Это хоть и не так практично, но быстро</li>
+								<li>Решают поставленные задачи</li>
+								<li>Гибкие</li>
+								<li>Бюджетный вариант, но все равно лучше чем ничего</li>
+							</ul>
+						</section>
+
+		<section class="slide">
+			<h2 class="shout">Вопросы?</h2>
+			<a
+			class="github-link"
+			href="https://t.me/baur_sha"
+			target="_blank"
+			style="
+			    position: absolute;
+    bottom: 90px;
+    left: 365px;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+	border: none;
+	background-image: none"
+			
+			rel="noopener noreferrer"
+			>
+			<img
+				class="github-logo"
+				src="pictures/telegram.svg"
+				alt="Лого Телеграм"
+				style="margin-bottom: -13px"
+				width="50px"
+			/> @baur_sha</a>
+		</section>
+
+		<div class="progress"></div>
+
+		<footer class="badge">
+			<a href="https://github.com/shower/shower">Cделано в shower</a>
+		</footer>
+
+		<script src="./shower.min.js"></script>
+
+		<!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+	</body>
+</html>
